@@ -27,6 +27,12 @@ ARIMA Parameter Determination:
 * For each dataset, it calls the determine_arima_parameters function to determine the best ARIMA parameters.
 * The determined parameters are printed, indicating the optimal configuration for the ARIMA model for each dataset.
 
+ACF and PACF plots:
+* The ACF (AutoCorrelation Function) plot shows the correlation between the time series and its lagged values at different lags.
+* It helps identify potential autoregressive (AR) terms in the ARIMA model by indicating the significant lags where the correlation is strong.
+* The PACF (Partial AutoCorrelation Function) plot displays the correlation between the time series and its lagged values after removing the effects of intervening lags.
+* It assists in identifying potential moving average (MA) terms in the ARIMA model by highlighting significant lags where the correlation is strong, excluding the influence of other lags.
+
 
 
 # ARIMA CODE
