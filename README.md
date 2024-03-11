@@ -1,6 +1,6 @@
 # ARIMA-Analysis-Code
 
-This Python code performs time series forecasting using the ARIMA (AutoRegressive Integrated Moving Average) model on multiple datasets.
+This Python code performs time series forecasting using the ARIMA (AutoRegressive Integrated Moving Average) model on multiple datasets for a client that wanted to see if they could forecast the number of final registrations for a conference based on the way the registrations are being made prior to the stat date of the conference.
 
 Importing Libraries: 
 * The code imports necessary libraries such as pandas for data manipulation, numpy for numerical computations, statsmodels for time series analysis, matplotlib for plotting, and sklearn for error metrics computation.
